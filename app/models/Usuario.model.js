@@ -1,6 +1,9 @@
 const Sequelize = require("sequelize")
 const conexion = require("./../config/Conexion.config")
 
+const Sequelize = require("sequelize")
+const conexion = require("./../config/Conexion.config")
+
 const Usuario = conexion.define("usuarios", {
     usuario: {
         type: Sequelize.STRING(20),
